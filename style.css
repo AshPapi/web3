@@ -6,7 +6,6 @@ body{
 }
 
 header{
-    width: 250%; 
     background-color:rgb(191, 243, 243); 
     height:70px;
 }
@@ -145,7 +144,6 @@ table{
 
 footer{ 
     margin-top: 20px;
-    width: 200%;
     background-color:rgb(191, 243, 243); 
     height:50px;
 }
