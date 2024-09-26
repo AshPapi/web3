@@ -1,12 +1,13 @@
 body{
-    width: 430px;
+    max-width: 420px;
+    width: 375px;
     margin: 0;
     padding: 0;
     background-color:rgb(218, 252, 252);
 }
 
 header{
-    width:100%; 
+    width: 375px; 
     background-color:rgb(191, 243, 243); 
     height:70px;
 }
@@ -33,23 +34,23 @@ ul{
 
 .welcome{
     position: absolute;
-    padding-left: 75px;
-    padding-top: 15px;
-    font-size: 20px;
+    padding-left: 65px;
+    padding-top: 18px;
+    font-size: 18px;
     text-align: center;
     font-family: "Lucida Console", monotype;
 }
 
 .navigationMainText{
     margin-top: 30px;
-    padding-right: 150px;
+    padding-right: 125px;
     font-size: 19px;
     text-align: center;
     font-family: "Lucida Console", monotype;
 }
 
 nav div{
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 .navigation_button_text{
@@ -92,12 +93,18 @@ nav div{
 }
 
 .fromLinkToFooterwidth{
-    max-width: 400px;
+    padding-right: 50px;
+}
+
+.fromLinkToFooterwidth img{
+    margin-right: 35px;
+    width: 295px;
     order: 2
+    
 }
 
 .textMain {
-    padding-left: 45px;
+    padding-left: 50px;
     margin-top: 30px;
     text-align: center;
     font-size: 15pt;
@@ -114,19 +121,22 @@ nav div{
     font-family: "Lucida Console", monotype;
 }
 
+.textLoweforformr{
+    margin-left: 10px;
+    font-size: 10pt;
+    font-family: "Lucida Console", monotype;
+}
+
 .form_text_main{
-    margin-bottom: 10px;
-    padding-left: 45px;
+    margin-bottom: 15px;
     margin-top: 30px;
-    text-align: center;
+    padding-left: 135px;
     font-size: 15pt;
     font-family: "Lucida Console", monotype;
 }
 
 table{
-    margin-top: 10px;
-    margin-left: 41px;
-    height: 350px;
+    transform: scale(0.9);
 }
 
 #section1{
@@ -134,8 +144,8 @@ table{
 }
 
 footer{ 
-    margin-top: 30px;
-    width: 430px; 
+    margin-top: 20px;
+    width: 375px; 
     background-color:rgb(191, 243, 243); 
     height:50px;
 }
@@ -146,11 +156,3 @@ footer{
     font-family: "Lucida Console", monotype;
     text-align: left;
 }
-
-
-
-
-
-
-
-
