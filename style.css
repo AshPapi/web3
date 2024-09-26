@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    width: 375px; 
+    width: 200%; 
     background-color:rgb(191, 243, 243); 
     height:70px;
 }
@@ -34,7 +34,8 @@ ul{
 
 .welcome{
     position: absolute;
-    padding-left: 65px;
+    width: 50%;
+    padding-left: 120px;
     padding-top: 18px;
     font-size: 18px;
     text-align: center;
@@ -145,7 +146,7 @@ table{
 
 footer{ 
     margin-top: 20px;
-    width: 375px; 
+    width: 200%;
     background-color:rgb(191, 243, 243); 
     height:50px;
 }
