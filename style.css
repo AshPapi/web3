@@ -1,164 +1,135 @@
-body{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color:rgb(218, 252, 252);
+@media (max-width: 480px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-color:#c5f3f2;
+    }
+
+    header{
+        background-color: rgba(130, 233, 233, 0.518);
+        height: 70px;
+    }
+
+    .pfp{
+        margin-top: 5px;
+        margin-left: 10px;
+        border-radius: 100%;
+        width: 60px;
+    }
+
+    .site_welcome{
+        width: 55%;
+        padding-top: 20px;
+        padding-left: 115px;
+        font-size: 15px;
+        text-align: center;
+        position: absolute;
+        font-family: "Lucida Console", monotype;
+    }
+
+    nav div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navigation_button_text{
+        font-size: 15px;
+        font-family: "Lucida Console", monotype; 
+    }
+
+    .navigation li{
+        border-radius: 5% ;
+        list-style-type: none;
+        margin-top: 5px;
+        width: 165px;
+        background-color:#a1e7e6;
+    }
+
+    .navigation ul li a {
+        display: block;
+        color: #000;
+        padding: 8px 19px;
+        text-decoration: none;
+    }
+
+    .hyperlink_main-text{
+        text-align: center;
+        padding-left: 15px;
+        font-size: 15px;
+        font-family: "Lucida Console", monotype; 
+    }
+
+    .hyperlink img{
+        width: 300px;
+    }
+
+    table{
+        transform: scale(0.9);
+        
+    }
+
+    .name_table{
+        margin-top: 25px;
+        font-size: 15px;
+        font-family: "Lucida Console", monotype; 
+        text-align: center;
+    }
+
+    .form_name{
+        margin-top: 15px;
+        text-align: center;
+        font-family: "Lucida Console", monotype; 
+        text-align: center;
+    }
+
+    form label div{
+        margin-top: 15px;
+    }
+
+    .all_form{
+        text-align: center;
+        font-size: 15px;
+        margin-top: 15px;
+        font-family: "Lucida Console", monotype; 
+    }
+
+    .marker{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .lang_text{
+        font-size: 15px;
+        margin-top: 15px;
+        text-align: center;
+        font-family: "Lucida Console", monotype; 
+    }
+
+    .accept{
+        margin-bottom: 25px;
+    }
+
+    footer{
+        background-color: rgba(130, 233, 233, 0.518);
+        height: 70px;
+    }
+
+    .text_footer{
+        font-size: 20px;
+        padding-top: 25px;
+        font-family: "Lucida Console", monotype; 
+    }
+
+    .change_tabl{
+        order: 0;
+    }
+
+    .change_hyperlink{
+        order: 1
+    }
 }
-
-header{
-    background-color:rgb(191, 243, 243); 
-    height:70px;
-}
-
-.flex-container{
-    display: flex;
-    flex-direction: column;
-}
-
-a{
-    text-decoration: none;
-}
-
-ul{
-    list-style-position: inside;  
-}
-
-.pfp{
-    margin-top: 5px;
-    margin-left: 10px;
-    height: 60px; 
-    border-radius: 100%;
-}
-
-.welcome{
-    position: absolute;
-    width: 50%;
-    padding-left: 120px;
-    padding-top: 18px;
-    font-size: 18px;
-    text-align: center;
-    font-family: "Lucida Console", monotype;
-}
-
-.navigationMainText{
-    margin-top: 30px;
-    padding-right: 125px;
-    font-size: 19px;
-    text-align: center;
-    font-family: "Lucida Console", monotype;
-}
-
-nav div{
-    margin-left: 20px;
-}
-
-.navigation_button_text{
-    font-size: 15px;
-    font-family: "Lucida Console", monotype; 
-}
-
-.navigation ul{
-    border: 1px solid #000;
-    border-radius: 10%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 165px;
-    background-color:rgb(218, 252, 252);
-  }
-
-.navigation ul li a {
-    display: block;
-    color: #000;
-    padding: 8px 10px;
-    text-decoration: none;
-  }
-
-.first_but{
-    border-top-right-radius: 22%;
-    border-top-left-radius: 22%;
-    border-bottom: 1px solid #555;
-}
-
-.last_but{
-    border-top: 1px solid #555;
-    border-bottom-right-radius: 22%;
-    border-bottom-left-radius: 22%;
-}
-
-.navigation li a:hover {
-    background-color: rgb(191, 243, 243);
-    color: black;
-}
-
-.fromLinkToFooterwidth{
-    padding-right: 50px;
-}
-
-.fromLinkToFooterwidth img{
-    margin-right: 35px;
-    width: 295px;
-    order: 2
-    
-}
-
-.textMain {
-    padding-left: 50px;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 15pt;
-    font-family: "Lucida Console", monotype;
-}
-
-.table-flex{
-    order: -1
-}
-
-.textLower{
-    text-align: center;
-    font-size: 10pt;
-    font-family: "Lucida Console", monotype;
-}
-
-.textLoweforformr{
-    margin-left: 10px;
-    font-size: 10pt;
-    font-family: "Lucida Console", monotype;
-}
-
-.form_text_main{
-    margin-bottom: 15px;
-    margin-top: 30px;
-    padding-left: 135px;
-    font-size: 15pt;
-    font-family: "Lucida Console", monotype;
-}
-
-table{
-    transform: scale(0.9);
-}
-
-#section1{
-    margin-bottom: 10px;
-}
-
-footer{ 
-    margin-top: 20px;
-    background-color:rgb(191, 243, 243); 
-    height:50px;
-}
-
-.textfoot{
-    padding-top: 25px;
-    font-size: 15pt;
-    font-family: "Lucida Console", monotype;
-    text-align: left;
-}
-
-
-
-
-
-
-
-
