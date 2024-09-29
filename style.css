@@ -60,9 +60,10 @@ a{
         padding: 8px 19px;
         text-decoration: none;
     }
+    
 
     .hyperlink_main-text{
-        margin-top: 40px;
+        margin-top:25px;
         text-align: center;
         padding-left: 15px;
         font-size: 15px;
@@ -81,6 +82,7 @@ a{
     table{
         padding-left: 10px;
         padding-right: 10px;
+        margin-bottom: 30px;
     }
 
     .name_table{
@@ -99,12 +101,19 @@ a{
     form label div{
         margin-top: 15px;
     }
-
+    
     .all_form{
         text-align: center;
         font-size: 15px;
-        margin-top: 15px;
         font-family: "Lucida Console", monotype; 
+        border-radius: 10%;
+        background-color:rgba(130, 233, 233, 0.518);
+        padding-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    form{
+        padding-bottom: 10px;
     }
 
     .marker{
@@ -135,12 +144,19 @@ a{
     }
 
     .change_tabl{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border-radius: 10%;
+        background-color:rgba(130, 233, 233, 0.518);
         order: 0;
         font-size: 12px;
         font-family: "Lucida Console", monotype; 
     }
 
     .change_hyperlink{
+        margin-bottom: 40px;
+        border-radius: 5%;
+        background-color:rgba(130, 233, 233, 0.518);
         order: 1
     }
 }
