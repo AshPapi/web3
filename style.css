@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 @media (max-width: 480px){
     .flex-container{
         display: flex;
@@ -58,6 +62,7 @@
     }
 
     .hyperlink_main-text{
+        margin-top: 40px;
         text-align: center;
         padding-left: 15px;
         font-size: 15px;
@@ -68,9 +73,14 @@
         width: 300px;
     }
 
+    .hyperlink{
+        font-size: 13px;
+        font-family: "Lucida Console", monotype; 
+    }
+
     table{
-        transform: scale(0.9);
-        
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .name_table{
@@ -84,7 +94,6 @@
         margin-top: 15px;
         text-align: center;
         font-family: "Lucida Console", monotype; 
-        text-align: center;
     }
 
     form label div{
@@ -127,6 +136,8 @@
 
     .change_tabl{
         order: 0;
+        font-size: 12px;
+        font-family: "Lucida Console", monotype; 
     }
 
     .change_hyperlink{
